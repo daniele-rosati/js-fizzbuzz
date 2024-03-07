@@ -1,0 +1,47 @@
+header{
+    background-color: #083b4c;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.container-title{
+    font-size: 40px;
+    color: white;
+}
+
+body{
+    margin:0 ;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #083b4c;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    margin: 2px;
+}
+
+.number {
+    background-color: #1389b2;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
+}
